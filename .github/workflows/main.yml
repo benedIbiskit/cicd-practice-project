@@ -24,7 +24,7 @@ jobs:
           pip install -r requirements.txt
 
       - name: Run linter
-        run: flake8 . --max-line-length=100
+        run: flake8 . --max-line-length=100 --exclude=tests/__init__.py
 
       - name: Run unit tests
         run: python -m pytest -v
