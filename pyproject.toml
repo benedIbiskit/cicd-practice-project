@@ -1,0 +1,8 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cicd-practice-project"
+version = "1.0.1"
+description = "Учебный проект по настройке CI/CD"
